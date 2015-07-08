@@ -5,6 +5,11 @@
     <string name="beta">Beta</string>
     <string name="title_activity_apps">Lignite</string>
 
+    <string name="backer">Backer?</string>
+
+    <string name="purchase">Purchase</string>
+    <string name="purchase_thanks">Thanks so much for your purchase! Your money will be used to fuel the development of Lignite as well as my university education! Hope you enjoy the watchface!</string>
+
     <string name="snowy">Pebble Time</string>
     <string name="install">Install</string>
     <string name="tintin_bianca">Pebble</string>
@@ -12,6 +17,14 @@
     <string name="apps_list">Apps List</string>
     <string name="settings">Settings</string>
     <string name="credits">Credits</string>
+
+    <string name="broken_token_error">
+        Hello!
+        \n\nIn the previous update I recently broke all Lignite accounts server-side. It causes issues
+        such as not being able to logout, or send feedback. This will automatically port your account to v2
+        and fix all of the issues I caused earlier, then will be out of your way. Sorry for the troubles! This is
+        a beta after-all ;)
+    </string>
 
     <!-- You are obviously NOT expected to translate names and SHOULD NOT translate names. -->
     <string name="full_credits">
@@ -210,6 +223,10 @@
         <item>Lines</item>
         <item>Colours</item>
         <item>TimeDock</item>
+        <item>Tree of Colours</item>
+        <item>Timezones</item>
+        <item>Slot Machine</item>
+        <item>Pulse</item>
     </string-array>
     
     <string-array name="app_descriptions">
@@ -239,6 +256,22 @@
             Official watchface for TimeDock by Engineerable! Available on the appstore.
 
             \n\nSettings include being able to open the face when plugged in, animations, and more. Check it out, it\'s free.
+        </item>
+        <item>
+            This one will truly live on the colour screen! Every minute a "branch“ grows randomly emulating a growing branch of a tree (hence the name).
+            \n\nEvery hour it resets itself and since the growing and coloring happens randomly it always looks different.
+        </item>
+        <item>
+            Our take on a watch face with two timezones giving you many personalizing options too! The inner circle shows the time for the first timezone
+            (in the above example for Philipp’s timezone) and the outer one stands for the second timezone (Edwin, in the above example).
+        </item>
+        <item>
+            A unique designed based around an actual slot machine. Watch the numbers shrink in and out of view as time passes by!
+            \nSlot Machine comes with a few other handy features, such as battery bar and shake to animate, just in case.
+        </item>
+        <item>
+            This is another face living through its animations. We could either let the circle grow every minute or have a pulse animation every minute changing the background color.
+            \nThis will really make the Pebble Time’s colour display shine!
         </item>
     </string-array>
 
@@ -304,26 +337,40 @@
             \n\nAnimations: Many
             \nOriginal Pebble support: Yes
         </item>
-    </string-array>
-
-    <string-array name="appPBWs">
+        <!-- Tree of Colours -->
         <item>
-            speedometer.pbw
+            Settings include:
+            \n-Bluetooth disconnect and reconnect alerts
+            \n-Invert
+            \n-Randomize colour
+            \n-Custom colours for branches
+            \n-Circle colour
+            \n-Time colour
         </item>
+        <!-- Timezones -->
         <item>
-            knightrider.pbw
+            Settings include:
+            \n-Bluetooth disconnect and reconnect alerts
+            \n-Custom colour for both timezones
+            \n-Analogue hands
+            \n-Custom names/labels
         </item>
+        <!-- Slot Machine -->
         <item>
-            chunky.pbw
+            Settings include:
+            \n-Bluetooth disconnect and reconnect alerts
+            \n-Invert
+            \n-Shake to animate
+            \n-Updates every second
         </item>
+        <!-- Pulse -->
         <item>
-            lines.pbw
-        </item>
-        <item>
-            colours.pbw
-        </item>
-        <item>
-            USE THE APPSTORE
+            Settings include:
+            \n-Bluetooth disconnect and reconnect alerts
+            \n-Invert
+            \n-Constant animations
+            \n-Shake to animate
+            \n-Circle and background colours
         </item>
     </string-array>
 

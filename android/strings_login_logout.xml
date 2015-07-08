@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="code_requirement">Please enter your 6 character access code:</string>
+    <string name="code_requirement">Please enter your access code</string>
     <string name="logging_in">Logging you in...</string>
+    <string name="reset_code">Can\'t login? Reset your account here.</string>
 
     <string name="logout">Logout</string>
 
