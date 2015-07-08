@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- SPEEDOMETER -->
+    <string name="title_activity_app_settings">Settings</string>
+
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_invert">Invert colours</string>
+    <string name="pref_btdisalert">Bluetooth disconnect alert</string>
+    <string name="pref_btrealert">Bluetooth reconnect alert</string>
+
+    <string name="pref_header_colours">Colours (Pebble Time)</string>
+
+    <string name="pref_title_1_colour">Outer Colour</string>
+    <string name="pref_title_2_colour">Middle Colour</string>
+    <string name="pref_title_3_colour">Inner Colour</string>
+
+    <string name="pref_title_lookandfeel">Look and Feel</string>
+
+    <string name="pref_boot_animation">Boot animation</string>
+    <string name="pref_bluetooth_icon">Bluetooth icon</string>
+    <string name="pref_antialiased">Antialiasing/dithering</string>
+
+    <!-- KNIGHTRIDER -->
+    <!-- constant animations are in the context of "constantly animating". The watchface is always moving/animating, therefore constant -->
+    <string name="pref_constant_anim">Constant Animations</string>
+
+    <!-- CHUNKY -->
+    <string name="minute_colour">Minute Colour</string>
+    <string name="hour_colour">Hour Colour</string>
+    <string name="battery_bar">Show battery bar</string>
+    <string name="background_colour">Background colour</string>
+
+    <!-- LINES -->
+    <string name="show_date">Show date</string>
+    <string name="alt_date_format">mm/dd/yy date format</string>
+    <string name="time_colour">Time colour</string>
+    <string name="date_colour">Date colour</string>
+
+    <!-- COLOURS -->
+    <!-- each bar has its own colour in this watchface, see the screenshots. Randomize width is in the context of making the
+    width of each bar random, taking the user's custom width into consideration much less. -->
+    <string name="randomize_width">Randomize bar width (beta)</string>
+    <string name="default_width">Default width</string>
+    <string name="organize_colours">Organize colours</string>
+
+</resources>
